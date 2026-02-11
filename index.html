@@ -4,13 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tea-house-resources</title>
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
+    <!-- google fonts -->
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      * {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header class="container mx-auto">
+      <!-- banner section start -->
+      <section class="grid grid-cols-1 text-center md:text-left md:grid-cols-2">
+        <div class="banner-content space-y-[30px]">
+          <h1 class="text-[80px] font-extrabold text-[#1c1c1c]">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-xl font-medium text-[#777]">
+            It's good tea time at The Tea House
+          </p>
+          <button
+            class="py-4 px-5 text-white bg-linear-to-r from-[#ff0000] to-[#ff8938] cursor-pointer rounded-xl"
+          >
+            Explore More
+            <span class="-rotate-45 inline-block"
+              ><i class="fa-solid fa-arrow-right"></i
+            ></span>
+          </button>
+        </div>
+        <div class="banner-image relative flex justify-end items-end">
+          <img src="./images/banner.png" alt="" />
+          <div
+            class="absolute rounded-xl shadow-2xl py-6 px-4 bottom-4 left-20 gap-2.5 bg-white flex justify-between items-center"
+          >
+            <img src="./images/Group 5.png" alt="" />
+            <div>
+              <h4 class="text-3xl font-extrabold">5.00</h4>
+              <p class="text-[16px] font-semibold">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner section end -->
+    </header>
+    <main class="container mx-auto"></main>
+    <footer class="container mx-auto"></footer>
+  </body>
 </html>
